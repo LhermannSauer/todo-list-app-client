@@ -1,0 +1,40 @@
+# Logs
+logs/
+*.log
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Built output
+/dist
+/build
+/public
+
+# Local development environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.idea
+.vscode
+*.swp
+*.swo
+
+# Testing files
+/coverage
+
+# Build tools
+/.cache
+/nyc_output
+/test-results
+/yarn-error.log
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Mac specific
+.DS_Store
